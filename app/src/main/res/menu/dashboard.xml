@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/communications">
+        <item
+            android:id="@+id/action_settings"
+            android:orderInCategory="100"
+            android:title="@string/action_settings"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/terms_conditions"
+            android:orderInCategory="100"
+            android:title="Terms and conditions"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/about_us"
+            android:orderInCategory="100"
+            android:title="About Us"
+            app:showAsAction="never" />
+    </group>
+</menu>

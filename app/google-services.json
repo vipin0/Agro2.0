@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "396358781086",
+    "firebase_url": "https://agro-final.firebaseio.com",
+    "project_id": "agro-final",
+    "storage_bucket": "agro-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396358781086:android:5596dc51b78380bbcc538f",
+        "android_client_info": {
+          "package_name": "com.crazydeveloper.agro20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396358781086-cqvs5q9md9go2omo5o3etr22c6afi4rf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crazydeveloper.agro20",
+            "certificate_hash": "dd8c1f844fe6c27865fb08e14e8c9487b7ff9b27"
+          }
+        },
+        {
+          "client_id": "396358781086-glcpuiagcdhvute0el4tc436qaab9le5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd-4r3PK6ulLaaf6p5izM8LqHxy4JJcH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396358781086-glcpuiagcdhvute0el4tc436qaab9le5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

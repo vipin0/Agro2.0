@@ -1,0 +1,238 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/farmer_register"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/custom_submit_button"
+            android:clickable="false"
+            android:text="Registration"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="36dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="First Name"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/farmer_register" />
+
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Last Name"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/first_name" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Address"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/last_name" />
+
+
+        <EditText
+            android:id="@+id/street_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Street"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address" />
+
+        <EditText
+            android:id="@+id/cityortown"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="City / Town"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/street_name" />
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:digits="0123456789"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Pincode"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cityortown" />
+
+        <EditText
+            android:id="@+id/state_name"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="State"
+            android:text="Tamilnadu"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pincode" />
+
+        <EditText
+            android:id="@+id/landmark"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="184dp"
+            android:background="@drawable/custom_login_email"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Landmark"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/street_name" />
+
+        <EditText
+            android:id="@+id/textPhone"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_login_email"
+            android:digits="+0123456789"
+            android:drawableLeft="@drawable/phone_logo"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:text="+91"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/landmark" />
+
+        <!--        <RadioGroup-->
+        <!--            android:id="@+id/user_type"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginTop="8dp"-->
+        <!--            android:layout_marginBottom="16dp"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/register_button"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.291"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/showUserType">-->
+
+        <!--            <RadioButton-->
+        <!--                android:id="@+id/former_selected"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:text="Farmer"-->
+        <!--                android:checked="true"-->
+        <!--                android:textSize="20dp" />-->
+        <!--            <RadioButton-->
+        <!--                android:id="@+id/buyer_selected"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:text="Buyer"-->
+        <!--                android:textSize="20dp" />-->
+
+        <!--        </RadioGroup>-->
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="60dp"
+            android:background="@drawable/custom_submit_button"
+            android:clickable="false"
+            android:text="register"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPhone" />
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/showUserType"-->
+        <!--            android:layout_width="186dp"-->
+        <!--            android:layout_height="22dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:text="Select User Type"-->
+        <!--            android:textSize="15dp"-->
+        <!--            android:textColor="@color/colorPrimary"-->
+        <!--            app:layout_constraintBottom_toTopOf="@+id/user_type"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintHorizontal_bias="0.248"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toBottomOf="@+id/textPhone" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
